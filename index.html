@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" />
+
+    <link rel="icon" type="image/png" href="public/Childream_Logo.png" />
+    <title> Childream - Les recettes émojis</title>
+  </head>
+    
+  <body>
+    <header>
+      <img class="logo" src="public/logo.png" alt="">
+    </header>
+    <main>
+      <!--==================== ADD RECIPE ====================-->
+      <div class="add__recipe">
+        <div class="form">
+          <h1 class="form__title">Ajouter une recette</h1>
+
+          <div class="form__div">
+            <input id="ingredient" type="text" class="form__input" placeholder=" ">
+            <label for="" class="form__label">Formule</label>
+          </div>
+
+          <div class="form__div">
+            <input id="URLImage" type="text" class="form__input" placeholder=" ">
+            <label for="" class="form__label">Lien de l'image du résultat</label>
+          </div>
+
+          <input type="submit" class="form__button" value="Ajouter">
+        </div>
+        <!--==================== RECIPE LIST ====================-->
+        <div id="recipeList" class="recipe__list">
+          <h1 class="">Recettes</h1>
+        </div>
+      </div>
+
+      
+
+      
+      <!--==================== RECIPE PREPARATION ====================-->
+      <div class="prep__recipe">
+        <h1 class=""> - Préparer une recette - </h1>
+        <p class="">Cliquez sur les ingrédients à ajouter</p>
+        <div class="emoji__container">
+          <span>🍇</span>
+          <span>🍉</span>
+          <span>🍊</span>
+          <span>🍋</span>
+          <span>🍌</span>
+          <span>🍍</span>
+          <span>🍎</span>
+          <span>🍏</span>
+          <span>🍑</span>
+          <span>🍒</span>
+          <span>🍓</span>
+          <span>🥝</span>
+          <span>🍅</span>
+          <span>🥑</span>
+          <span>🥔</span>
+          <span>🥕</span>
+          <span>🌽</span>
+          <span>🌶️</span>
+          <span>🥒</span>
+          <span>🍄</span>
+          <span>🥥</span>
+          <span>🍞</span>
+          <span>🥖</span>
+        </div>
+        <div class="ingredients__choice">
+          <div class="choice"></div>
+          <div class="choice"></div>
+          <div class="choice"></div>
+          <input class="btn__prep" type="button" value="Preparer" />
+        </div>
+        <div class="ingredients__count">
+          <div class="count"></div>
+          <div class="count"></div>
+          <div class="count"></div>
+        </div>
+      </div>
+
+      <div id="result"></div>
+
+    </main>
+
+    <footer>
+      <p class="footer__copy">&#169; No1ceTea. Tous droits réservés.</p>
+    </footer>
+
+
+    
+  <body/>
+</html>
